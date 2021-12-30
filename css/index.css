@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+}
+
+#apollo {
+  width: 100%;
+  min-height: 125vh;
+  display: block;
+  background-color: black;
+  background-image: url('../photos/EarthApollo4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  text-align: center;
+}
+
+#logo {
+  padding: 12rem 0rem;
+  width: 100%;
+  max-width: 100vh;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#cubesat {
+  position: relative;
+  top: 50vh;
+  max-width: 40vh;
+}
